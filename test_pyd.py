@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 import pytest
 import requests
 
-token = '4855ab003033ea3512ca3daa5cfd759ac58aaef1'
+token = 'get your own token'
 
 class MKTU(BaseModel):
     clss: int = Field(alias="class")
